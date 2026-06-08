@@ -28,10 +28,6 @@ private:
 	FReply OnGenerateClicked();
 
 	bool CanCreateMappingDA() const;
-	bool CollectTileTypesFromSelectedJson(TArray<FName>& OutTileTypes);
-	bool CollectObjectTypesFromSelectedJson(TArray<FName>& OutObjectTypes);
-	bool LoadSelectedJsonObject(TSharedPtr<class FJsonObject>& OutJsonObject);
-	bool GenerateTileMapFromSelectedJson();
 	void SetStatusMessage(const FString& Message);
 
 	void OnTileMappingAssetSelected(const FAssetData& AssetData);
