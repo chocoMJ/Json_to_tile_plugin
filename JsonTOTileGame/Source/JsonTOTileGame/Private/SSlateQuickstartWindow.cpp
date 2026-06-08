@@ -146,7 +146,7 @@ void SSlateQuickstartWindow::Construct(const FArguments& InArgs)
                         [
                             SNew(SButton)
                                 .Text(FText::FromString(TEXT("Create Object Mapping DA")))
-                                .IsEnabled(this, &SSlateQuickstartWindow::CanCreateObjectMappingDA)
+                                .IsEnabled(this, &SSlateQuickstartWindow::CanCreateMappingDA)
                                 .OnClicked(this, &SSlateQuickstartWindow::OnCreateObjectMappingDAClicked)
                         ]
                 ]
@@ -459,10 +459,6 @@ FReply SSlateQuickstartWindow::OnGenerateClicked()
     return FReply::Handled();
 }
 bool SSlateQuickstartWindow::CanCreateMappingDA() const
-{
-    return !SelectedJsonPath.IsEmpty();
-}
-bool SSlateQuickstartWindow::CanCreateObjectMappingDA() const
 {
     return !SelectedJsonPath.IsEmpty();
 }

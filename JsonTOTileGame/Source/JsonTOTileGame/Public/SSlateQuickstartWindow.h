@@ -28,7 +28,6 @@ private:
 	FReply OnGenerateClicked();
 
 	bool CanCreateMappingDA() const;
-	bool CanCreateObjectMappingDA() const;
 	bool CollectTileTypesFromSelectedJson(TArray<FName>& OutTileTypes);
 	bool CollectObjectTypesFromSelectedJson(TArray<FName>& OutObjectTypes);
 	bool LoadSelectedJsonObject(TSharedPtr<class FJsonObject>& OutJsonObject);
