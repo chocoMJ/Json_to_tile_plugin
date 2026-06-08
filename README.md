@@ -5,9 +5,9 @@ SketchToJson 프로젝트는, 사용자의 손그림 이미지 입력을 받아 
 ---
 #### 설치 및 사용 방법
 
-1. 이 저장소를 다운로드하거나 clone한다.
+1. 저장소를 클론하거나, JsonTOTileGame.zip파일을 다운로드 한 후 압축을 푼다.
 
-2. `JsonTOTileGame` 폴더를 사용하려는 Unreal 프로젝트의 `Plugins` 폴더 안에 복사한다. 프로젝트에 `Plugins` 폴더가 없다면 직접 생성한다.
+2. `JsonTOTileGame` 폴더를 사용하려는 Unreal 프로젝트의 `Plugins` 폴더 안에 복사한다. 프로젝트에 `Plugins` 폴더가 없다면 직접 생성한다. 여기서, JsonTOTileGame 폴더 이름이 다르다면 플러그인이 제대로 작동하지 않음에 주의한다.
 
 ```text
 YourUnrealProject/
