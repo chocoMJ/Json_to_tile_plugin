@@ -26,5 +26,19 @@ YourUnrealProject/
 
 ---
 
-#### 폴더 구조
+#### 예시
+
+입력 이미지 파일
+
+<img width="400" height="400" alt="제목 없음" src="https://github.com/user-attachments/assets/1e578919-7e2a-43f0-aae2-6f35a3427508" />
+<img width="400" height="400" alt="제목 없음1" src="https://github.com/user-attachments/assets/83eda530-5749-4826-8e69-7feca069d86e" />
+
+중간 에디터
+
+<img width="800" height="600" alt="스크린샷 2026-06-10 173442" src="https://github.com/user-attachments/assets/9ffaa20c-280f-47a4-86b4-f8c0062b51f5" />
+
+타일 맵 에셋
+
+<img width="917" height="446" alt="스크린샷 2026-06-10 173832" src="https://github.com/user-attachments/assets/df4f1498-a6ac-4b7e-a07c-b516097faa00" />
+
 
